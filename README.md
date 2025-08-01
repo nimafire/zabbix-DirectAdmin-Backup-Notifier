@@ -21,5 +21,7 @@ put the sh file into /usr/local/directadmin/scripts/custom/ folder.
 Open the script and **set the IP address of your Zabbix server** and your **custom key for the Zabbix item**.
 
 Run the following commands to apply correct permissions:
+
 chmod +x /usr/local/directadmin/scripts/custom/all_backups_post.sh
+
 chown diradmin.diradmin /usr/local/directadmin/scripts/custom/all_backups_post.sh
