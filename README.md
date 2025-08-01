@@ -16,5 +16,10 @@ This script enables monitoring of DirectAdmin's internal backup process using Za
 3. It sends a custom key/status to your Zabbix server using the Zabbix Sender tool or agent.
 
 ## installation
-put the sh file into /usr/local/directadmin/scripts/custom/ folder
+put the sh file into /usr/local/directadmin/scripts/custom/ folder.
 
+Open the script and **set the IP address of your Zabbix server** and your **custom key for the Zabbix item**.
+
+Run the following commands to apply correct permissions:
+chmod +x /usr/local/directadmin/scripts/custom/all_backups_post.sh
+chown diradmin.diradmin /usr/local/directadmin/scripts/custom/all_backups_post.sh
